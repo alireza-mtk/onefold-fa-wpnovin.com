@@ -1,0 +1,43 @@
+.entry-footer > span::before {
+    display: inline-block;
+    font-family: FontAwesome;
+    height: 15px;
+    margin-left: 8px;
+    content: "";
+}
+#breadcrumb .breadcrumb-trail li {
+    display: block;
+    float: right;
+    list-style: outside none none;
+    padding-right: 10px;
+}
+#breadcrumb .breadcrumb-trail li::after {
+    content: "\f100";
+    margin-right: 20px;
+    font-family: 'FontAwesome';
+}
+.comment .comment-body {
+    text-align: right;
+}
+.vcard .avatar {
+    float: right;
+    margin: 7px 15px 12px 10px;
+}
+#breadcrumb, #breadcrumb {
+    color: #e9c01e;
+    float: left;
+    margin-top: 5px;
+}
+.main-navigation ul li.menu-item-has-children > a::after, .main-navigation ul li.page_item_has_children > a::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    margin-left: 0;
+    float: left;
+}
+.home-section-latest-news .latest-news-meta span::before {
+    content: "\f017";
+    display: inline-block;
+    font-family: fontawesome;
+    margin-left: 5px;
+}
